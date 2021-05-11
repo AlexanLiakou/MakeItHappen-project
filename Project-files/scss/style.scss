@@ -1,8 +1,10 @@
 $primary: #3292a6;
+$warning: #a7bbc7;
 $primary-overlay: rgba(50,146,166,0.8);
 
 body{
     margin-top: 105px;
+    background: #fff;
 }
 
 /*Main navbar*/
@@ -52,7 +54,7 @@ body{
     }
 
     .card:hover{
-        background-color: $primary;
+        background-color: $warning;
         color: white;
     }
 
